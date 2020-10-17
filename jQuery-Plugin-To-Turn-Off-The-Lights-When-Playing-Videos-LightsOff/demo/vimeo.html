@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vimeo Lights Off Demo</title>
+</head>
+<body>
+    <h1>Vimeo Lights Off Demo</h1>
+
+    <iframe id="vimeo" src="https://player.vimeo.com/video/76979871"
+            width="640" height="360" frameborder="0" allowfullscreen>
+    </iframe>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../src/lightsoff.js"></script>
+
+    <!--
+        Vimeo Player Javascript API
+        https://github.com/vimeo/player.js
+    -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+        var $video = $('#vimeo');
+        $video.lightsOff();
+
+        var player = new Vimeo.Player($video);
+
+        player.on('play', function() {
+            $video.lightsOff('show');
+        });
+        player.on('pause', function() {
+            $video.lightsOff('hide');
+        });
+        player.on('ended', function() {
+            $video.lightsOff('hide');
+        });
+
+        // Pause video when the overlay gets hidden (usually when the user clicks the overlay itself)
+        // Since we only have a video attached to lightsOff,
+        // we can use player instead of the video selector given to us by the event
+        $(document).on('lightsOn', function() {
+            player.pause();
+        });
+    </script>
+</body>
+</html>

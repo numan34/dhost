@@ -1,0 +1,394 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .main-nav {
+        background: #2155c1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .dotted {
+        text-align: left;
+        left: 5px;
+    }
+    .main-nav li a {
+        padding: 0px 0 0 10px!important;
+    }
+    .banner-text h3 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .banner-text h2 {
+        font-size: 32px;
+    }
+    .banner-text p {
+        line-height: 22px;
+        margin-bottom: 23px;
+    }
+    .free-web-text span a,
+    .server-text span a,
+    .banner-text a {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+    .banner-text {
+        margin-bottom: 95px;
+    }
+    .domain h3 {
+        font-size: 22px;
+    }
+    .domain form .domain-input {
+        width: 70%;
+        height: 35px;
+        padding-left: 10px;
+    }
+    .domain form .btn {
+        width: 30%;
+        height: 35px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .domain form .check {
+        margin: 10px 12px 0 0;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #banner-img {
+        padding: 160px 0 40px 0;
+    }
+    #why-choose-us {
+        padding: 40px 0;
+    }
+    .monial-text h2,
+    .pricing-text h2,
+    .about-us h2 {
+        font-size: 23px;
+    }
+    .monial-text p,
+    .pricing-text p,
+    .server-text p,
+    .about-us p {
+        margin: 9px 0 20px 0;
+    }
+    .about-icons h4 a {
+        margin: 10px 0 8px 0;
+    }
+    #contact,
+    #latest-news,
+    #testimonial,
+    .full-server {
+        padding-top: 40px;
+    }
+    .server-text p {
+        margin: 10px 0 10px 0;
+    }
+    .server-text h4 a {
+        font-size: 23px;
+    }
+    .asdf {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    .krot {
+        margin-bottom: 10px;
+    }
+    #pricing-plans,
+    .full-server {
+        padding-top: 50px;
+    }
+    .pricing-text a {
+        margin: 0 0px 5px 0px;
+    }
+    .price-plan-border-3,
+    .price-plan-border-2,
+    .price-plan-border-1 {
+        margin-top: 15px;
+    }
+    .pri-btm {
+        padding-bottom: 50px;
+    }
+    .free-web-text h2 {
+        font-size: 32px;
+    }
+    .free-web-text p {
+        margin: 10px 0 20px 0;
+    }
+    .box-top {
+        padding: 10px;
+    }
+    .news-full-box {
+        margin-bottom: 20px;
+    }
+    .market-place a {
+        font-size: 14px;
+        padding: 8px 5px;
+        margin: 8px;
+    }
+    .market-place {
+        margin-bottom: 10px;
+    }
+    .contact-1st img {
+        width: 140px;
+    }
+    .contact-2nd {
+        margin-top: 20px;
+    }
+    .backtop {
+        width: 35px;
+        height: 35px;
+        bottom: 20px;
+        right: 10px;
+    }
+    .backtop i {
+        font-size: 17px;
+        top: 40%;
+    }
+    .monial-box {
+        height: 455px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .main-nav {
+        background: #2155c1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main-nav li a {
+        padding: 0px 0 0 10px!important;
+    }
+    .dotted {
+        text-align: left;
+        left: 5px;
+    }
+    .banner-text h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .banner-text h2 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    .banner-text p {
+        margin-bottom: 30px;
+    }
+    .free-web-text span a,
+    .server-text span a,
+    .banner-text a {
+        font-size: 17px;
+        padding: 8px 14px;
+    }
+    .banner-text {
+        margin-bottom: 75px;
+    }
+    .domain h3 {
+        font-size: 28px;
+    }
+    .domain form .domain-input {
+        height: 40px;
+    }
+    .domain form .btn {
+        height: 40px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .domain form .check {
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    #banner-img {
+        padding: 160px 0 60px 0;
+    }
+    #why-choose-us {
+        padding: 40px 0;
+    }
+    .full-server {
+        padding-top: 40px;
+    }
+    .pricing-text p {
+        margin-bottom: 20px;
+    }
+    .pricing-text a {
+        padding: 10px 16px;
+        margin: 0 5px 10px 5px;
+    }
+    .price-plan-border-1 {
+        margin-bottom: 20px;
+    }
+    .pri-btm {
+        padding-bottom: 60px;
+    }
+    .free-web-text h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .free-web-text p {
+        margin: 10px 0 23px 0;
+    }
+    .box-top {
+        padding: 15px;
+    }
+    .monial-box {
+        height: 455px;
+    }
+    .news-full-box {
+        margin-bottom: 20px;
+    }
+    #contact {
+        padding: 40px 0 0 0;
+    }
+    .market-place a {
+        font-size: 20px;
+        padding: 20px 16px;
+        margin: 5px;
+    }
+    .market-place {
+        margin-bottom: 20px;
+    }
+    .backtop {
+        width: 35px;
+        height: 35px;
+        bottom: 20px;
+        right: 10px;
+    }
+    .backtop i {
+        font-size: 17px;
+        top: 40%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .main-nav {
+        background: #2155c1;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main-nav li a {
+        padding: 0px 0 5px 10px!important;
+    }
+    .dotted {
+        text-align: left;
+        left: 5px;
+    }
+    .banner-text h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .banner-text h2 {
+        font-size: 42px;
+        margin-bottom: 10px;
+    }
+    .banner-text p {
+        margin-bottom: 30px;
+    }
+    .banner-text {
+        margin-bottom: 80px;
+    }
+    .about-icons h4 a {
+        margin: 10px 0 10px 0;
+        font-size: 19px;
+    }
+    .about-icons p {
+        font-size: 14px;
+    }
+    .pricing-text p {
+        margin-bottom: 5px;
+    }
+    .pricing-text a {
+        margin: 0 5px 25px 5px;
+    }
+    .price-plan-border-1 {
+        margin-bottom: 20px;
+    }
+    .pri-btm {
+        padding-bottom: 60px;
+    }
+    .free-web-text h2 {
+        font-size: 42px;
+    }
+    .free-web-text p {
+        margin: 18px 0 30px 0;
+    }
+    .box-top {
+        padding: 20px;
+    }
+    .market-place a {
+        font-size: 20px;
+        padding: 19px 10px;
+        margin: 5px;
+    }
+    .market-place {
+        margin-bottom: 35px;
+    }
+    .backtop i {
+        font-size: 20px;
+        top: 46%;
+    }
+    .backtop {
+        width: 35px;
+        height: 35px;
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-text h3 {
+        margin-top: 45px;
+    }
+    .banner-text h2 {
+        font-size: 45px;
+    }
+    .banner-text {
+        margin-bottom: 90px;
+    }
+    .domain form .domain-input {
+        width: 78%;
+    }
+    .domain form .btn {
+        float: left;
+    }
+    .pricing-text a {
+        margin: 0 5px 10px 5px;
+    }
+    .free-web-text h2 {
+        font-size: 45px;
+    }
+    .box-top {
+        padding: 15px;
+    }
+    .card-body h5 a {
+        font-size: 19px;
+    }
+    .market-place a {
+        font-size: 20px;
+        padding: 21px 20px;
+        margin: 5px;
+    }
+    .market-place {
+        margin-bottom: 40px;
+    }
+    .contact-1st a {
+        margin-right: 0px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .domain form .domain-input {
+        width: 78%;
+    }
+    .domain form .btn {
+        float: left;
+    }
+}

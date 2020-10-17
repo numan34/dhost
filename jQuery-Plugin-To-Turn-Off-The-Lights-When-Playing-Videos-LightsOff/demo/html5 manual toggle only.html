@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Manual Toggle Only</title>
+</head>
+<body>
+    <h1>HTML5 Manual Toggle Only</h1>
+
+    <!-- Toggle -->
+    <button id="switch-button">Toggle Overlay</button>
+
+    <!-- Taken from https://www.w3.org/2010/05/video/mediaevents.html -->
+    <div>
+        <video id="html5"
+               controls preload='none'
+               mediagroup='myVideoGroup'
+               poster="https://media.w3.org/2010/05/sintel/poster.png">
+            <source id="mp4"
+                    src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    type='video/mp4'>
+            <source id="webm"
+                    src="https://media.w3.org/2010/05/sintel/trailer.webm"
+                    type='video/webm'>
+            <source id="ogv"
+                    src="https://media.w3.org/2010/05/sintel/trailer.ogv"
+                    type='video/ogg'>
+            <p>Your user agent does not support the HTML5 Video element.</p>
+        </video>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../src/lightsoff.js"></script>
+
+    <script>
+        $('#html5').lightsOff({
+            switchSelectors: ['#switch-button']
+        });
+    </script>
+</body>
+</html>

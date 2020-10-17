@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Lights Off Demo</title>
+</head>
+<body>
+    <h1>HTML5 Lights Off Demo</h1>
+
+    <!-- Taken from https://www.w3.org/2010/05/video/mediaevents.html -->
+    <video id="html5"
+           controls preload='none'
+           mediagroup='myVideoGroup'
+           poster="https://media.w3.org/2010/05/sintel/poster.png">
+        <source id="mp4"
+                src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+                type='video/mp4'>
+        <source id="webm"
+                src="https://media.w3.org/2010/05/sintel/trailer.webm"
+                type='video/webm'>
+        <source id="ogv"
+                src="https://media.w3.org/2010/05/sintel/trailer.ogv"
+                type='video/ogg'>
+        <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../src/lightsoff.js"></script>
+
+    <!--
+        HTML 5 Media Events
+        https://www.w3.org/TR/html5/embedded-content-0.html#mediaevents
+    -->
+    <script>
+        var $video1 = $('#html5');
+        $video1.lightsOff();
+
+        $video1.on('play playing', function() {
+            $video1.lightsOff('show');
+        });
+        $video1.on('pause ended', function() {
+            $video1.lightsOff('hide');
+        });
+
+        // Pause video when the overlay gets hidden (usually when the user clicks the overlay itself)
+        // Since we only have a video attached to lightsOff,
+        // we can use videoSelector instead of the video selector given to us by the event
+        $(document).on('lightsOn', function() {
+            $video1.get(0).pause()
+        });
+    </script>
+</body>
+</html>

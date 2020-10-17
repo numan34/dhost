@@ -1,0 +1,44 @@
+{
+  "name": "lightsoff",
+  "version": "2.0.2",
+  "description": "jQuery-based plugin that provides a cinema-like experience while watching a video on a page",
+  "main": "src/lightsoff.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueldemoura/lightsoff.git"
+  },
+  "keywords": [
+    "turn",
+    "off",
+    "the",
+    "lights",
+    "lights off",
+    "no distractions",
+    "no distraction",
+    "distraction free",
+    "cinema",
+    "movie"
+  ],
+  "author": {
+    "name": "Miguel de Moura",
+    "email": "me@migueldemoura.com",
+    "url": "https://github.com/migueldemoura"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/migueldemoura/lightsoff/issues"
+  },
+  "homepage": "https://github.com/migueldemoura/lightsoff",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "jscs": "^3.0.7"
+  }
+}
